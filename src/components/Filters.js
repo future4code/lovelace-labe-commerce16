@@ -7,11 +7,11 @@ export default class Filters extends React.Component {
       <SmallContainer>
         <h3>Filtros</h3>
         <p>Valor mínimo:</p>
-        <input />
+        <input type="number" value="100" />
         <p>Valor máximo:</p>
-        <input />
+        <input type="number" value="100" />
         <p>Buscar por nome:</p>
-        <input />
+        <input type="text" value="Produto 1" />
       </SmallContainer>
     );
   }
