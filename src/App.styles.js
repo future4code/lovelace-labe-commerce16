@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
 export const AppContainer = styled.div`
   display: flex;
   justify-content: center;
+  padding: 80px;
 `;
 
 export const BigContainer = styled.div`

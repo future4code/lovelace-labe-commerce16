@@ -3,6 +3,10 @@ import { BigContainer, HeadingProducts } from "../App.styles";
 import ProductCard from "./ProductCard";
 
 export default class Products extends React.Component {
+  state = {
+
+  }
+
   render() {
     return (
       <BigContainer>
